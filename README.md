@@ -17,7 +17,7 @@ Symbol（ES6 新定义）
  **扩展**   
 引用数据类型：对象(Object)、数组(Array)、函数(Function)。  
 
-#### 举例说说什么是闭包
+#### 2.举例说说什么是闭包
 
 
 ```
@@ -36,11 +36,12 @@ return f2;
 变量存到f1里，对外不可见，但是一直不销毁，就像面向对象的私有属性    
 能说出return一个函数，给一半分
 
-#### 使用说明
+#### 3.ES6
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+var let const 区别  
+var会出现变量提升，let，const不会  
+let可改变，  
+const是只读变量，但是const a={b:1}指向了一个object，object内部可变(a.b=2,是可以变的)  
 
 #### 参与贡献
 
