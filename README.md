@@ -17,11 +17,24 @@ Symbol（ES6 新定义）
  **扩展**   
 引用数据类型：对象(Object)、数组(Array)、函数(Function)。  
 
-#### 安装教程
+#### 举例说说什么是闭包
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+
+```
+function f1(){
+var n=999;
+function f2(){
+n++;
+alert(n);
+}
+return f2;
+}
+　var result=f1();
+　result(); // 1000
+  result(); // 1001
+```
+变量存到f1里，对外不可见，但是一直不销毁，就像面向对象的私有属性    
+能说出return一个函数，给一半分
 
 #### 使用说明
 
