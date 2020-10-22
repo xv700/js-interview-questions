@@ -5,15 +5,14 @@
 
 #### 1.基本类型 typeof
 
-1.基本类型 typeof
-Boolean
-String
-Number
-Null
-Undefined
-Symbol（ES6 新定义）
+Boolean  
+String  
+Number  
+Null  
+Undefined  
+Symbol（ES6 新定义）   
 
-能答出基本类型三个以上即可
+能答出基本类型三个以上即可  
 
 
 #### 安装教程
