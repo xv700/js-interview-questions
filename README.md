@@ -77,4 +77,14 @@ document.querySelectorAll('a.abc')
 2行   var a=10
 3行   function a(){console.log(a)}
 4行   a()
+
+//第一行和第四行输出什么？
+
+//答案：
+//第一行：输出function a()函数体
+//第四行：报错语法错误
+
+//因为变量声明var提升，答出这里就可以
+
+//但是函数体提升优先级更高
 ```
