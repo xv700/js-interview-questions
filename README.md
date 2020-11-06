@@ -219,3 +219,43 @@ mounted周期写的是this.data[0]=100;
     var val = 'goudan';
     console.log('val is' + (val === 'goudan') ? 'goudan' : 'other');
 ```
+
+第四题
+```js
+    var name = 'goudan';
+    (function(){
+      if(name === 'goudan'){
+        var name = 'dachui';
+        console.log('bye' + name);
+      }
+      else{
+        console.log('hello'+name);
+      }
+    })();
+```
+
+第五题
+```js
+    (function(){
+      var a=b=5;
+    })()
+    console.log(b);
+```
+第六题
+```js
+    or(var i = 0;i < 3; i++){
+      setTimeout(() => {
+       console.log(i);
+      });
+    }
+```
+ 第七题
+```js
+for(var i= 0; i < 3; i++){
+      (function(x){
+        setTimeout(function(){
+          console.log(i);
+        })
+      })(i)
+    }
+```
