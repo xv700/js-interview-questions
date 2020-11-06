@@ -151,7 +151,6 @@ abc("ab") //报错
 
 ### 11.选出input，name为abc的所有元素
 jQuery，由于此框架使用开始减少如果不会可以忽略
-
 $('input[name="abc"]')
 
 请使用jQuery选出页面所有元素
@@ -162,6 +161,7 @@ AJAX、Axios、fetch
 说出一个即可，可以再说说跨域
 
 ### 13.VUE
+```js
 var vm = new Vue({
             el: '#',
             data: [],
@@ -176,10 +176,12 @@ var vm = new Vue({
 		this.data[0]=100;
             },
          });
-问dom上会渲染什么
-问题只要描述一个vue的data初始赋值是[]
-created周期写的是this.data = [1,2,3];
-mounted周期写的是this.data[0]=100;
+
+```
+问dom上会渲染什么  
+问题只要描述一个vue的data初始赋值是[]  
+created周期写的是this.data = [1,2,3];  
+mounted周期写的是this.data[0]=100;  
 
 答案是[1,2,3]
 两个考点：
