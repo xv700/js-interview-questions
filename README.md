@@ -3,7 +3,7 @@
 ### 介绍
 群里有java朋友要面试前端，找我要面试题，我就给了这个
 
-#### 1.基本类型 typeof
+### 1.基本类型 typeof
 
 Boolean  
 String  
