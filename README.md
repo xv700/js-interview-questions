@@ -98,8 +98,15 @@ document.querySelectorAll('a.abc')
           return this.a
         }
       }
-      console.log(obj.c);
-      console.log(obj.getA());
+      console.log(obj.c);  //undefined
+      console.log(obj.getA());  //10
       const test = obj.getA;
-      console.log(test());   
+      console.log(test());   //undefined
+
+```
+
+#### 8.函数内的this指向
+
+```HTML
+<div></div>
 ```
