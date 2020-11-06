@@ -108,5 +108,8 @@ document.querySelectorAll('a.abc')
 #### 8.函数内的this指向
 
 ```HTML
-<div></div>
+<div id="ab"></div>
+
+var abc=document.getElementById
+abc("ab") //报错
 ```
