@@ -187,3 +187,35 @@ mounted周期写的是this.data[0]=100;
 两个考点：  
 1.mounted周期比created周期晚运行，所以最后运行this.data[0]=100，    
 2.但是this.data[0]的索引赋值vue检测不到，所以mounted周期运行了，数据虽然改变，但是dom不渲染  
+
+### 14.习题
+
+第一题：Javascript中可以通过typeof得出的数据类型有几种？D
+
+// A. 5
+// B. 6
+// C. 7
+// D. 8
+
+//number,string,boolean,null,undefine,symbol,object,function
+
+第二题：
+```js
+    var name='ggg';
+    function Fn(){
+      console.log('222');
+      (function(){
+        this.name = 'fn';
+      }).call(window)
+    }
+    Fn.prototype.creat = function(){
+      this.name = '小明'
+    }
+    console.log(new new Fn().creat().name);
+```
+
+第三题
+```js
+    var val = 'goudan';
+    console.log('val is' + (val === 'goudan') ? 'goudan' : 'other');
+```
