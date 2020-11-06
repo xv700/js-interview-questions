@@ -48,12 +48,20 @@ const是只读变量，但是const a={b:1}指向了一个object，object内部�
 //两个obj,{a:1}、{b:1}合并成一个obj 
 
   var obj={...{a:1},...{b:1}}
+console.log(obj)  //{a:1,b:1}
 
+///////////////////////////////////
 
 //获取a对象中b的值
-
 var a={b:1};
-var {b}=a
+var {b}=a;
+console.log(b)  //1
 ```
 
-
+#### 5.通过 CSS 选择器获取
+```js
+//获取页面上的所有a标签DOM对象
+var a1=document.getElementsByTagName('a') //不能forEach方法
+var a2=document.querySelectorAll('a') //不能forEach方法
+```
+答出一个就行
