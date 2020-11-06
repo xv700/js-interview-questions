@@ -71,7 +71,7 @@ var a2=document.querySelectorAll('a') //ES5新加
 document.querySelectorAll('a.abc')
 //知道document.querySelectorAll就行
 ```
-6.
+#### 6.变量声明var提升
 ```js
 1行   a()
 2行   var a=10
@@ -87,4 +87,19 @@ document.querySelectorAll('a.abc')
 //因为变量声明var提升，答出这里就可以
 
 //但是函数体提升优先级更高
+```
+
+#### 7.this指向
+```js
+ const obj={
+        a:10,
+        c:this.a,
+        getA:function(){
+          return this.a
+        }
+      }
+      console.log(obj.c);
+      console.log(obj.getA());
+      const test = obj.getA;
+      console.log(test());   
 ```
