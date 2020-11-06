@@ -44,12 +44,16 @@ let可改变，
 const是只读变量，但是const a={b:1}指向了一个object，object内部可变(a.b=2,是可以变的)  
 
 #### 4.解构
+```js
+//两个obj,{a:1}、{b:1}合并成一个obj 
 
-两个obj,{a:1}、{b:1}合并成一个obj   var obj={...{a:1},...{b:1}}
+  var obj={...{a:1},...{b:1}}
+
+
+//获取a对象中b的值
 
 var a={b:1};
-
 var {b}=a
-获取了a对象中b的值
+```
 
 
