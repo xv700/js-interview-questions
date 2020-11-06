@@ -185,5 +185,5 @@ mounted周期写的是this.data[0]=100;
 
 答案是[1,2,3]
 两个考点：
-1.mounted周期比created周期晚运行，所以最后运行this.data[0]=100，
+1.mounted周期比created周期晚运行，所以最后运行this.data[0]=100，  
 2.但是this.data[0]的索引赋值vue检测不到，所以mounted周期运行了，数据虽然改变，但是dom不渲染
