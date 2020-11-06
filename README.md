@@ -29,9 +29,10 @@ alert(n);
 }
 return f2;
 }
-　var result=f1();
-　result(); // 1000
-  result(); // 1001
+　
+var result=f1();
+result(); // 1000
+result(); // 1001
 ```
 变量存到f1里，对外不可见，但是一直不销毁，就像面向对象的私有属性    
 能说出return一个函数，给一半分
@@ -60,8 +61,20 @@ console.log(b)  //1
 
 #### 5.通过 CSS 选择器获取
 ```js
-//获取页面上的所有a标签DOM对象
-var a1=document.getElementsByTagName('a') //不能forEach方法
-var a2=document.querySelectorAll('a') //不能forEach方法
+//获取页面上的所有a标签DOM对象,答出一个就行
+var a1=document.getElementsByTagName('a') //
+var a2=document.querySelectorAll('a') //ES5新加
+////////////////////////
+
+//获取页面上的所有a标签，并且class是abc的,ES5
+ 
+document.querySelectorAll('a.abc')
+//知道document.querySelectorAll就行
 ```
-答出一个就行
+6.
+```js
+1行   a()
+2行   var a=10
+3行   function a(){console.log(a)}
+4行   a()
+```
