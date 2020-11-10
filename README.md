@@ -190,11 +190,11 @@ mounted周期写的是this.data[0]=100;
 
 ### 14.习题
 
-第一题：Javascript中可以通过typeof得出的数据类型有几种？D
-A.- [ ] 5
-B.- [ ] 6
-C.- [ ] 7
-D.- [x] 8
+第一题：Javascript中可以通过typeof得出的数据类型有几种？
+- [ ] 5
+- [ ] 6
+- [ ] 7
+- [x] 8
 
 //number,string,boolean,null,undefine,symbol,object,function
 
@@ -269,7 +269,7 @@ for(var i= 0; i < 3; i++){
 第九题：下列关于哪个正则能匹配到字符串'88.狗蛋'? A
     A. /\d?.狗蛋/
     B. /\d+,{2}/
-     C. /\d*[^\d]/
+    C. /\d*[^\d]/
     D. /\d+^[\d]/
 
 
@@ -283,8 +283,8 @@ for(var i= 0; i < 3; i++){
 第十一题： 第一行输出什么
  
 ```js
-1行 console.log(a5);
-2行 window.a5=1;
+ console.log(a5);
+ window.a5=1;
 ```
 
 
