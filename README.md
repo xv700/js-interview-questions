@@ -243,7 +243,7 @@ mounted周期写的是this.data[0]=100;
 ```
 第六题
 ```js
-    or(var i = 0;i < 3; i++){
+    for(var i = 0;i < 3; i++){
       setTimeout(() => {
        console.log(i);
       });
@@ -280,6 +280,13 @@ for(var i= 0; i < 3; i++){
  B. [0] == true    
  C. !3 < 1  
  D. !Array.isArray([1,2,3])
+
+第十一题： 第一行输出什么
+ 
+```js
+1行 console.log(a5);
+2行 window.a5=1;
+```
 
 
 ### 送我一杯咖啡  
