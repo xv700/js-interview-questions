@@ -289,7 +289,20 @@ for(var i= 0; i < 3; i++){
  console.log(a5);
  window.a5=1;
 ```
-
+第十一题： 输出什么
+ 
+```js
+console.log(1);
+const promise = new Promise((resolve, reject) => {
+  console.log(2)
+  resolve()
+  console.log(3)
+})
+promise.then(() => {
+  console.log(4)
+})
+console.log(5)
+```
 
 ### 送我一杯咖啡  
 
