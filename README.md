@@ -191,7 +191,7 @@ mounted周期写的是this.data[0]=100;
 ### 14.习题
 
 第一题：Javascript中可以通过typeof得出的数据类型有几种？D
-
+- [x] ReadMe
  A. 5  
  B. 6  
  C. 7   
