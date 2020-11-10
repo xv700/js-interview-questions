@@ -191,11 +191,10 @@ mounted周期写的是this.data[0]=100;
 ### 14.习题
 
 第一题：Javascript中可以通过typeof得出的数据类型有几种？D
-- [x] ReadMe
- A. 5  
- B. 6  
- C. 7   
- D. 8   
+A.- [ ] 5
+B.- [ ] 6
+C.- [ ] 7
+D.- [x] 8
 
 //number,string,boolean,null,undefine,symbol,object,function
 
