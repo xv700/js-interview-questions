@@ -303,8 +303,8 @@ promise.then(() => {
 })
 console.log(5)
 ```
-第十三题： 输出什么
- 
+
+第十四题： 输出什么
 ```js
 //在与解析过程中还要考虑一下当前变量的作用于
 function m () {
@@ -326,6 +326,18 @@ function m () {
     console.log(b2); // function
 }
 m();
+```
+
+第十三题： 输出什么
+```js
+var a={},
+    b={key:"b"},
+    c={key:"c"};
+
+a[b]=123;
+a[c]=456;
+
+console.log(a[b])
 ```
 
 ### 送我一杯咖啡  
