@@ -303,6 +303,30 @@ promise.then(() => {
 })
 console.log(5)
 ```
+第十二题： 输出什么
+ 
+```js
+//在与解析过程中还要考虑一下当前变量的作用于
+function m () {
+    console.log(a1); // underfined
+    console.log(a2); // underfined
+    console.log(b1); // underfined
+    console.log(b2); // underfined
+    if(false) {
+        function b1 (){};
+        var a1 = 10;
+    }
+    if(true) {
+        function b2 (){};
+        var a2 = 10;
+    }
+    console.log(a1); // underfined
+    console.log(a2); // 10
+    console.log(b1); // underfined
+    console.log(b2); // function
+}
+m();
+```
 
 ### 送我一杯咖啡  
 
